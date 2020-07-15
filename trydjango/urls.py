@@ -20,7 +20,7 @@ from page.views import home_view,about_view,contact_view,social_view
 
 urlpatterns = [
     path('',home_view,name='home'),
-    path('about/',home_view,name="about"),
+    path('about/',about_view,name="about"),
     path('contact/',contact_view,name="contact"),
     path('social/',social_view,name="social"),
     path('admin/', admin.site.urls),
